@@ -1,0 +1,187 @@
+body{
+    font-family: Arial;
+    margin: 0;
+}
+.container{
+    position: relative;
+    text-align: center;
+    color: rgb(5, 33, 104);
+    
+}
+.container img{
+    opacity: 50%;
+
+}
+.centered{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-style: oblique;
+    font-size: 50px;
+}
+.naslov{
+    font-size: 25px;
+    color: rgb(5, 33, 104);
+   text-align: center;
+   padding-top: 10px;
+}
+.paragraf{
+    font-size: 20px;
+    color: rgb(5, 33, 104);
+    text-align: center;
+}
+.meni{
+    font-size: 33px;
+    color: rgb(6, 53, 170);
+    line-height: 110px;
+
+
+ 
+}
+.logo{
+   height: 100px; 
+   width: 200px;
+   border-radius: 50%;
+   float: left;
+   position: static;
+}
+a{
+    text-decoration: none;
+    color: rgb(5, 33, 104);
+    
+}
+.prvdel{
+    margin-bottom: 0px;
+    background-color: rgba(222, 224, 227, 0.3);
+}
+.lista{
+    text-align: center;
+    color: rgb(5, 33, 104);
+    padding: 50px;
+    font-size: 20px;
+    list-style-position: inside;
+    
+}
+.vtordel{
+    margin-top: 0px;
+    position: relative;
+    text-align: center;
+    width: 700px;
+    height: 700px;
+    background-color: rgba(255, 255, 255, 0.5);
+    left: 400px;
+}
+.forma{
+width: 500px;
+height: 100%;
+margin: auto;
+text-align: center;
+
+}
+.slika{
+    margin-left: 400px;
+    margin-top: 100px;
+    margin-bottom: 0%;
+}
+.pozadinavtora{
+    opacity: 0.3;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    margin-top: 0%;
+}
+.tretdel{
+    width: 700px;
+    height: 700px;
+    background-color: rgba(255, 255, 255, 0.5);
+    left: 400px; 
+    position: relative;
+    left: 400px;
+    
+    
+
+}
+.polee{
+    position: relative;
+    width: 100%;
+    background-color: white;
+    padding: 10px;
+    border-color: rgb(5, 33, 104);
+    margin: 10px;
+
+}
+input[type=text]:focus{
+    border: 3px solid rgb(5, 33, 104);
+}
+input [type=email]:focus{
+    border: 3px solid rgb(5, 33, 104);
+}
+.ddvobv{
+    margin-left: 90px;
+    font-size: 25px;
+}
+.radio{
+    font-size: 15px;
+}
+.radioo{
+    margin-left: 20px;
+}
+.kopce{
+    position: relative;
+    margin: auto;
+    color: white;
+    width: 150px;
+    background-color: rgb(5, 33, 104);
+    border-width: 3px;
+    font-size: 17px;
+
+}
+a:hover {
+    color: rgb(6, 53, 170);
+    font-size: 130%;
+}
+.meni{
+display: flex;
+justify-content: center;
+justify-content: space-around;
+
+}
+.mapa{
+margin-top: 250px;
+}
+.kontakt{
+    background-color: rgb(5, 33, 104);
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 200px;
+    width: 100%;
+    
+}
+.adresa{
+    display: flex;
+    flex-direction: column;
+
+}
+.kont{
+    display: flex;
+    flex-direction: column;
+  
+}
+.vreme{
+    display: flex;
+    flex-direction: column;
+
+
+}
+.h1{
+    text-align: center;
+}
+.fiksno{
+    position: fixed;
+    background-color: white;
+    z-index: 99;
+    width: 100%;
+}
